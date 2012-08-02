@@ -48,7 +48,7 @@ public class Config {
 	public static String missionStat="";	//任务统计结果
 	public static int isInArea = 2;	//是否在网格内 0不在网格,1在网格,2未知
 	
-	
+	public static ArrayList<Point> listPoint = new ArrayList<Point>();	//点
 	
 	public static void loadConfig(Context context) {
 	}
